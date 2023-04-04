@@ -183,7 +183,7 @@ actions.forEach(action =>{
                 $(".pickup").animate({opacity:0.5});
                 $(".generateBtn").click(()=>{
                         var randomNum = Math.floor(Math.random() * 45) + 1;
-                        $(".heading").text(motivationalNotes[randomNum]);
+                        $(".heading").text(pickupLines[randomNum]);
                         // console.log(randomNum);
                         // console.log("pickup notes clicked");
                 })
